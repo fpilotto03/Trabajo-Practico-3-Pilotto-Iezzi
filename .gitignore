@@ -1,0 +1,24 @@
+# Caché de Python y binarios
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos Virtuales
+venv/
+env/
+.venv/
+
+# Archivos del Sistema Operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos crudos de Siemens NX (pesados e innecesarios en GitHub)
+*.dat
+*.op2
+*.f06
+*.f04
+
+# Configuraciones locales de editores (VS Code, PyCharm)
+.vscode/
+.idea/
