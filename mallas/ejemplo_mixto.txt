@@ -1,0 +1,18 @@
+# Malla generada por parser.escribir_malla
+*TITLE Ejemplo de malla mixta Q4 + T3
+*MATERIAL hormigon plane_strain E=21000000000 nu=0.25 rho=2400 t=1
+*NODES
+# id x y
+1 0 0
+2 1 0
+3 2 0
+4 0 1
+5 1 1
+6 2 1
+*ELEMENTS
+# id TIPO orden material nodos...
+1 QUAD 1 hormigon 1 2 5 4
+2 TRI 1 hormigon 2 3 6
+3 TRI 1 hormigon 2 6 5
+*NSET izquierda
+1 4
