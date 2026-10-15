@@ -1,4 +1,4 @@
-"""Tests del ROL 1: elementos.py, ensamble.py y patch_test.py."""
+"""Tests de: elementos.py, ensamble.py y patch_test.py."""
 import unittest
 
 import numpy as np

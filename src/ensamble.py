@@ -16,7 +16,7 @@ anidadas de MATLAB se escriben como diccionarios:
     mesh['elements']['type']         lista de strings 'T3' | 'T6' | 'Q4' | 'Q8' | 'Q9'
     mesh['elements']['property']     (nEle,)  indice (0-based) dentro de la lista `properties`
 
-    properties = [ {'E': 21e9, 'nu': 0.25, 't': 1.0, 'rho': 2400.0}, ... ]
+    properties = [ {'E': 21e9, 'nu': 0.2, 't': 1.0, 'rho': 2400.0}, ... ]
 """
 import numpy as np
 import scipy.sparse as sp
@@ -100,7 +100,7 @@ def ensamblar_K(mesh, properties):
 
 
 def armar_K_global(nodos, conectividad, propiedades, tipo_elemento):
-    """CONTRATO CON EL ROL 2.  Devuelve K global como scipy.sparse.csr_matrix.
+    """ Devuelve K global como scipy.sparse.csr_matrix.
 
     nodos         : (nNodos, 2) array con x, y     (lo que lee el parser)
     conectividad  : (nEle, k) array 0-based         (k = 3, 4, 6, 8 o 9 segun el tipo)

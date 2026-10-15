@@ -1,15 +1,6 @@
 """parser.py  --  lectura y escritura del formato de malla de texto plano.
 
-Formato (ver docs/formato_malla.md).  Todo lo que sigue a '#' es un comentario:
 
-    *TITLE      nombre libre
-    *MATERIAL   nombre  plane_stress|plane_strain  E=...  nu=...  [rho=...]  [t=...]
-    *NODES
-    id  x  y
-    *ELEMENTS
-    id  TIPO  orden  material  n1 n2 ... nk          TIPO = TRI | QUAD     orden = 1 | 2
-    *NSET  nombre
-    id id id ...
 
 El tipo de elemento, el orden de interpolacion y el material se especifican en cada linea de
 *ELEMENTS.  La cantidad de nodos define el elemento:  TRI 1 -> T3,  TRI 2 -> T6,  QUAD 1 -> Q4,

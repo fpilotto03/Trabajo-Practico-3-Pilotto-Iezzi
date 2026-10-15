@@ -1,6 +1,6 @@
-"""fisica.py  --  ROL 2: cargas y condiciones de borde de la presa.
+"""fisica.py  --cargas y condiciones de borde de la presa.
 
-Todo se arma sobre la estructura `mesh` del ROL 1 y usa las funciones de contrato
+Todo se arma sobre la estructura `mesh` y usa las funciones de contrato
 `obtener_puntos_gauss` y `obtener_N_y_detJ`.  Numeracion de GDL:  nodo i -> u = 2 i, v = 2 i + 1
 (mesh['nodes']['dof']).  Unidades SI (N, m, Pa); por metro de profundidad (t = 1).
 

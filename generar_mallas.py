@@ -5,7 +5,7 @@ from src.geometria import Presa, generar_malla_presa
 from src.ensamble import crear_mesh
 from src.parser import escribir_malla, leer_malla, verificar_orientacion
 
-PROP = {'nombre': 'hormigon', 'estado': 'deformacion_plana', 'E': 21e9, 'nu': 0.25, 'rho': 2400.0, 't': 1.0}
+PROP = {'nombre': 'hormigon', 'estado': 'deformacion_plana', 'E': 21e9, 'nu': 0.2, 'rho': 2400.0, 't': 1.0}
 
 
 def escribir(ruta, presa, tipo, nx, ny, titulo):

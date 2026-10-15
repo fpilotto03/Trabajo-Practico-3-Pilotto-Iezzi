@@ -1,4 +1,4 @@
-"""Tests del ROL 2 (unittest):  python -m unittest discover -s tests -t ."""
+"""Tests de:  python -m unittest discover -s tests -t ."""
 import os
 import tempfile
 import unittest
