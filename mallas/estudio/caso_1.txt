@@ -1,6 +1,6 @@
 # Malla generada por parser.escribir_malla
 *TITLE B=20
-*MATERIAL hormigon plane_strain E=21000000000 nu=0.25 rho=2400 t=1
+*MATERIAL hormigon plane_strain E=21000000000 nu=0.2 rho=2400 t=1
 *NODES
 # id x y
 1 0 0
